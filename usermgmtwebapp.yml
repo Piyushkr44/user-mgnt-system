@@ -21,7 +21,7 @@ spec: #inside your deployment we need to provide spec how this deployment api wi
         
         containers:
           - name: usermgmt-webapp  
-            image: piyush1607kr/userapp
+            image: piyush1607kr/userapp:v1
             ports:
               - containerPort: 8080
                 name: mysql 
